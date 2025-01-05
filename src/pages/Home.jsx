@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import postservice from '../appwrite/post.js'
 import {Container, PostCard} from '../components/index.js'
+import { Link } from 'react-router-dom';
 
 function Home() {
 //     const [posts, setPosts] = useState([])
@@ -61,13 +62,13 @@ function Home() {
         </p>
 
         <div className="flex justify-center space-x-6">
-          <a href="/all-posts" className="px-6 py-3 bg-black text-white font-bold rounded-full border-2 border-[#ff0]">
+          <Link to="/all-posts" className="px-6 py-3 bg-black text-white font-bold rounded-full border-2 border-[#ff0]">
             Explore Now
-          </a>
+          </Link>
 
-          <a href="/add-post" className="px-6 py-3 bg-[#ff0] text-black font-bold rounded-full">
+          <Link to="/add-post" className="px-6 py-3 bg-[#ff0] text-black font-bold rounded-full">
             Start Writing
-          </a>
+          </Link>
         </div>
       </div>
     </div>

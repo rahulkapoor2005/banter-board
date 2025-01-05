@@ -15,7 +15,7 @@ function Footer() {
                     href="#"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:text-[#ff0] dark:text-gray-200"
                     >
                     <span className="sr-only">Facebook</span>
 
@@ -34,7 +34,7 @@ function Footer() {
                     href="#"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:text-[#ff0] dark:text-gray-200"
                     >
                     <span className="sr-only">Instagram</span>
 
@@ -53,7 +53,7 @@ function Footer() {
                     href="#"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:text-[#ff0] dark:text-gray-200"
                     >
                     <span className="sr-only">Twitter</span>
 
@@ -70,7 +70,7 @@ function Footer() {
                     href="#"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:text-[#ff0] dark:text-gray-200"
                     >
                     <span className="sr-only">GitHub</span>
 
@@ -89,7 +89,7 @@ function Footer() {
                     href="#"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:text-[#ff0] dark:text-gray-200"
                     >
                     <span className="sr-only">Dribbble</span>
 
