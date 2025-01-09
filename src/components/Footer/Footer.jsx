@@ -4,9 +4,9 @@ import Logo from '../Logo'
 
 function Footer() {
   return (
-    <footer className="bg-black">
-        <div className=" ml-6 mr-6 space-y-8 pt-16 pb-6 lg:space-y-16 bottom-0">
-            <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+    <footer className="bg-black p-4">
+        <div className=" container mx-auto space-y-8 pt-8 pb-4">
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 text-center items-center">
             <div>
                 <Logo />
                 <ul className="mt-8 flex gap-6">
@@ -103,157 +103,62 @@ function Footer() {
                     </a>
                 </li>
                 </ul>
-            </div>
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
-            <div>
-                <p className="font-medium text-gray-900 dark:text-white">Services</p>
-                <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                        <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                            Company Review
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                            Accounts Review
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                            HR Consulting
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                            SEO Optimisation
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-                <div>
-                <p className="font-medium text-gray-900 dark:text-white">Company</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Features
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Pricing
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Affiliate Program
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Press Kit
-                    </a>
-                    </li>
-                </ul>
-                </div>
-
-                <div>
-                <p className="font-medium text-gray-900 dark:text-white">Support</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Account
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Help
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Contact Us
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Customer Support
-                    </a>
-                    </li>
-                </ul>
-                </div>
-
-                <div>
-                <p className="font-medium text-gray-900 dark:text-white">Legals</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Terms & Conditions
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Privacy Policy
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Licensing
-                    </a>
-                    </li>
-                </ul>
-                </div>
-
-                {/* <div>
-                <p className="font-medium text-gray-900 dark:text-white">Legal</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Accessibility
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Returns Policy
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Refund Policy
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                        Hiring Statistics
-                    </a>
-                    </li>
-                </ul>
-                </div> */}
-            </div>
-            </div>
-
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-            &copy; 2025. BanterBoard . All rights reserved.
-            </p>
+          </div>
+          <div>
+            <p className="font-medium text-gray-900 dark:text-white">Support</p>
+            <ul className="mt-6 space-y-4 text-sm">
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Help
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Customer Support
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-medium text-gray-900 dark:text-white">Company</p>
+            <ul className="mt-6 space-y-4 text-sm">
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Affiliate Program
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Press Kit
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <p className="text-xs text-gray-500 dark:text-gray-400">
+          &copy; 2025. BanterBoard. All rights reserved.
+        </p>
+      </div>
     </footer>
   )
 }

@@ -33,13 +33,13 @@ export default function Post() {
     };
 
     return post ? (
-        <div className="py-8">
+        <div className="py-8 px-4 sm:px-8">
             <Container>
                 <div className="max-w-fit flex justify-center mb-4 relative border rounded-xl p-2">
                         <img
                             src={uploadservice.getFilePreview(post.featuredImage)}
                             alt={post.title}
-                            className="rounded-xl border-2 border-white"
+                            className="rounded-xl border-2 border-white w-full sm:w-auto"
                             width={700}
                             height={700}
                         />

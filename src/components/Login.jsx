@@ -27,7 +27,7 @@ function Login() {
   }
 
   return (
-    <div className='flex items-center justify-center w-full'>
+    <div className='flex items-center justify-center w-full py-8 px-4 sm:px-8'>
       <div className={`mx-auto w-full max-w-lg bg-black border-white rounded-3xl p-10 border-4 m-4`}>
         <div className='mb-2 flex justify-center'>
           <span className='inline-block w-full ml-16'>

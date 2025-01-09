@@ -4,53 +4,14 @@ import {Container, PostCard} from '../components/index.js'
 import { Link } from 'react-router-dom';
 
 function Home() {
-//     const [posts, setPosts] = useState([])
-//     useEffect(() => {
-//         postservice.getPosts().then((posts) => {
-//             if(posts){
-//                 setPosts(posts.documents)
-//             }
-//         })
-//     }, [])
-
-//     if (posts.length === 0) {
-//         return (
-//             <div className="w-full py-8 mt-4 text-center">
-//                 <Container>
-//                     <div className="flex flex-wrap">
-//                         <div className="p-2 w-full">
-//                             <h1 className="text-2xl font-bold hover:text-[#ff0]">
-//                                 Login to read posts
-//                             </h1>
-//                         </div>
-//                     </div>
-//                 </Container>
-//             </div>
-//         )
-//     }
-
-//     return (
-//         <div className='w-full py-8'>
-//             <Container>
-//                 <div className='flex flex-wrap'>
-//                     {posts.map((post) => (
-//                         <div key={post.$id} className='p-2 w-1/4'>
-//                             <PostCard {...post} />
-//                         </div>
-//                     ))}
-//                 </div>
-//             </Container>
-//         </div>
-//     )
-// }
 
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center px-6">
       <div className="text-center">
-        <h1 className='text-7xl font font-extrabold leading-tight mb-4 text-white'>
-            Welcome to <span className='text-[#ff0]'>BanterBoard</span> -
+        <h1 className='text-3xl font font-extrabold leading-tight mb-4 text-white lg:text-7xl'>
+            Welcome to <span className='text-[#ff0]'>BanterBoard</span> 
         </h1>
-        <h1 className="text-4xl font-extrabold text-white leading-tight mb-8">
+        <h1 className="text-xl font-extrabold text-white leading-tight mb-8 lg:text-4xl">
         Your Digital Canvas for Expression
         </h1>
 
