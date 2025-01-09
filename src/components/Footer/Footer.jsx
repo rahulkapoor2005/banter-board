@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="bg-black p-4">
         <div className=" container mx-auto space-y-8 pt-8 pb-4">
-            <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 text-center items-center">
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-4 text-center items-center">
             <div>
                 <Logo />
                 <ul className="mt-8 flex gap-6">
@@ -103,6 +103,31 @@ function Footer() {
                     </a>
                 </li>
                 </ul>
+          </div>
+          <div>
+            <p className="font-medium text-gray-900 dark:text-white">Important Links</p>
+            <ul className="mt-6 space-y-4 text-sm">
+              <li>
+                <Link to={"/"} className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to={"/login"} className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link to={"/signup"} className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Sign Up
+                </Link>
+              </li>
+              <li>
+                <Link to={"/add-post"} className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                  Add Post
+                </Link>
+              </li>
+            </ul>
           </div>
           <div>
             <p className="font-medium text-gray-900 dark:text-white">Support</p>

@@ -78,7 +78,7 @@ export default function PostForm({post}){
 
     return (
         <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
-            <div className="w-2/3 px-2">
+            <div className="w-full px-2 lg:w-2/3">
                 <Input
                     label=""
                     placeholder="Title"
@@ -94,9 +94,9 @@ export default function PostForm({post}){
                         setValue("slug", slugTransform(e.currentTarget.value), { shouldValidate: true });
                     }}
                 />
-                <RTE label="" name="content" control={control} defaultValue={getValues("content")} />
+                <RTE label="" name="content" control={control} defaultValue={getValues("content")} className="mb-4" />
             </div>
-            <div className="w-1/3 px-2">
+            <div className="w-full px-2 lg:w-1/3">
                 <Input
                     label=""
                     type="file"
@@ -116,7 +116,7 @@ export default function PostForm({post}){
                 <Select
                     options={["Active", "Inactive"]}
                     label=""
-                    className="mt-14 mb-6"
+                    className="mt-4 mb-6 lg:mt-14"
                     {...register("status", { required: true })}
                 />
                 <Button type="submit" className="w-full rounded-full bg-[#ff0] font-bold" textColor="text-black">
